@@ -177,6 +177,15 @@ git push
 
 ---
 
+## Docker Images (GHCR)
+
+Spring Boot:bash
+docker pull ghcr.io/satya66123/springboot-service:latest
+
+PHP Service:
+docker pull ghcr.io/satya66123/php-service:latest
+
+
 
 ✅ MySQL DevOps repo becomes complete ✅🔥
 
