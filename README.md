@@ -57,8 +57,7 @@ Production-style **multi-stack DevOps repository** with:
 
 ## Quick Start (Docker Compose)
 
-1. Copy environment file:
-```bash
+1. Copy environment file:bash
 cp .env.example .env
 Build and run:
 
@@ -84,10 +83,17 @@ bash
 curl -X POST http://localhost:8081/api/employees \
   -H "Content-Type: application/json" \
   -d '{"name":"Satya","email":"satya@company.com","role":"Developer"}'
+
+ 
+ ---
+
+  
 PHP App
 Open:
 
 http://localhost:8082/
+
+---
 
 Kubernetes (Manifests)
 Kubernetes YAMLs are inside:
@@ -97,16 +103,22 @@ bash
 infra/k8s/
 Includes:
 
+---
+
 MySQL StatefulSet + PVC
 
 Spring Boot Deployment + Service
 
 PHP Deployment + Service
 
+---
+
 Ingress
 
 Repo Structure
 bash
+
+---
 
 springboot-php-crud-devops/
 ├── springboot-service/
@@ -116,74 +128,17 @@ springboot-php-crud-devops/
 │   └── k8s/
 ├── docker-compose.yml
 └── .github/workflows/ci.yml
+
+---
+
 Author
 Satya Srinath
 GitHub: @satya66123
 Email: satyasrinath653512@gmail.com
 
-License
-MIT License
-
-yaml
-
-
 ---
 
-# ✅ D) planner.txt (Professional execution plan)
-
-Create: **planner.txt**
-```txt
-PROJECT: springboot-php-crud-devops
-OWNER: Satya Srinath (@satya66123)
-
-GOAL
-Build a production-style DevOps repository with two application stacks (Spring Boot + PHP)
-integrated with a shared MySQL 8 database, including docker-compose orchestration,
-Kubernetes manifests and CI workflow.
-
-MODULES
-1) MySQL setup
-   - docker-compose MySQL 8 service
-   - init.sql for seed data
-   - env-based config
-
-2) Spring Boot service
-   - REST CRUD API /api/employees
-   - JPA integration with MySQL
-   - Dockerfile multi-stage build
-   - health endpoint
-
-3) PHP service
-   - Simple CRUD web UI
-   - PDO MySQL connection
-   - Dockerfile Apache + PHP
-   - health endpoint
-
-4) DevOps add-ons
-   - docker-compose orchestration
-   - GitHub Actions CI workflow
-   - Kubernetes manifests:
-       MySQL StatefulSet
-       Secrets + ConfigMaps
-       Deployments + Services
-       Ingress routing
-
-SUCCESS CRITERIA
-- Both apps start via docker-compose
-- Spring Boot API can Create/List/Delete employees
-- PHP UI can Create/Delete employees
-- MySQL stores persistent data via volume
-- K8s manifests included and production-style
-- README includes clear run steps + endpoints
-
-STATUS
-- Completed core implementation
-- Pending: optional improvements (logging, swagger, rate limiting, docker push workflow)
-✅ E) MIT LICENSE
-Create file: LICENSE
-
-txt
-
+License
 MIT License
 
 Copyright (c) 2026 Satya Srinath
@@ -205,7 +160,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-✅ F) Final Commit Commands
+
+---
+
+✅Final Commit Commands
 Run:
 
 bash
@@ -213,8 +171,11 @@ bash
 git add .
 git commit -m "chore: add k8s manifests + ci workflow + docs"
 git push
-✅ Next (very important)
-MySQL DevOps repo becomes complete ✅🔥
+
+---
+
+
+✅ MySQL DevOps repo becomes complete ✅🔥
 
 
 
