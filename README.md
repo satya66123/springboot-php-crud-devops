@@ -163,7 +163,7 @@ SOFTWARE.
 
 ---
 
-✅ F) Final Commit Commands
+✅Final Commit Commands
 Run:
 
 bash
