@@ -8,6 +8,9 @@
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-orange.svg)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Manifests-blue.svg)
+![GHCR Spring Boot](https://img.shields.io/badge/GHCR-springboot--service-blue)
+![GHCR PHP](https://img.shields.io/badge/GHCR-php--service-blue)
+
 
 
 Production-style **multi-stack DevOps repository** with:
