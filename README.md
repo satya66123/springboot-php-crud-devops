@@ -187,7 +187,7 @@ docker pull ghcr.io/satya66123/php-service:latest
 
 ---
 
-          ✅ MySQL DevOps repo becomes complete ✅🔥
+✅ MySQL DevOps repo becomes complete ✅🔥
 
 
 
